@@ -1,25 +1,4 @@
-Run project in two ways
-
-1. Use docker
-2. Manual build
-
-
-# Docker build
-
-- Build Dockerfile:
-  
-- Run Docker image:
-
-- Run project:
-```
-python main.py
-```
-  
-- Choose data file:
-stored in data directory inside project  
-__example__: `PATH_TO_PROJECT/computer_systems_reliability_lab1/data/gamma.csv`
-
-# Manual build
+# Build
 
 - Go to project directory:
 ```
