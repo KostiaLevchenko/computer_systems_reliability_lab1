@@ -1,41 +1,47 @@
 Run project in two ways
 
 1. Use docker
-2.manual build
+2. Manual build
 
 
-Docker build
+# Docker build
 
 - Build Dockerfile:
   
 - Run Docker image:
 
-- Run project: 
-  python main.py
+- Run project:
+```
+python main.py
+```
   
-- Choose data file 
-  stored in data directory inside project 
-  example: PATH_TO_PROJECT/computer_systems_reliability_lab1/data/gamma.csv
+- Choose data file:
+stored in data directory inside project  
+__example__: `PATH_TO_PROJECT/computer_systems_reliability_lab1/data/gamma.csv`
 
-Manual build
+# Manual build
 
-#Go to project directory:
+- Go to project directory:
+```
+cd computer_systems_reliability_lab1/
+```
 
-  cd computer_systems_reliability_lab1/
-
-#Activate dev environment:
-
-   source venv/bin/activate
+- Activate dev environment:
+```
+source venv/bin/activate
+```
    
-#Install dependencies:
-
-  sudo apt-get install -y python3-tk
-  pip install -r requirements.txt
+- Install dependencies:
+```
+sudo apt-get install -y python3-tk
+pip install -r requirements.txt
+```
   
-#Run project: 
-  python main.py
+## Run project:
+```
+python main.py
+```
   
-#Choose data file:
-
-  stored in data directory inside project 
-  example: PATH_TO_PROJECT/computer_systems_reliability_lab1/data/gamma.csv
+### Choose data file:
+stored in data directory inside project  
+__example__: `PATH_TO_PROJECT/computer_systems_reliability_lab1/data/gamma.csv`
